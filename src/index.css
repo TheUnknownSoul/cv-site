@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes blinkCursor {
+    0%, 100% { border-color: black; }
+    50% { border-color: transparent; }
+}
+
+.animate-blink-cursor {
+    animation: blinkCursor 0.8s step-end infinite;
+}
