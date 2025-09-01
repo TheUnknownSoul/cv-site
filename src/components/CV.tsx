@@ -108,7 +108,7 @@ export default function CV() {
                             </ul>
                             <div className="text-center mt-6">
                                 <a
-                                    href="https://github.com/TheUnknownSoul/cv-site/blob/master/src/cv/Andrii_Roi_Software_and_Security_Engineer.pdf"
+                                    href="https://raw.githubusercontent.com/TheUnknownSoul/cv-site/refs/heads/master/public/cv/Andrii_Roi_Software_and_Security_Engineer.pdf"
                                     download
                                     className="inline-block px-6 py-3 bg-green-600 text-white font-semibold rounded-xl hover:bg-green-700 transition"
                                 >
