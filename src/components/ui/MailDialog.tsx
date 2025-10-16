@@ -16,7 +16,8 @@ export function MailDialog({open, onOpenChange}: MailDialogProps) {
     const [message, setMessage] = useState("");
     const myEmail = "andriyroy3@gmail.com";
 
-    const sendEmail = () => {
+    const sendEmail = (e: React.MouseEvent<HTMLButtonElement>) => {
+        e.preventDefault();
         // 1) validation
         if (!name?.trim() || !email?.trim() || !subject?.trim() || !message?.trim()) {
             alert("Please fill in all fields.");
